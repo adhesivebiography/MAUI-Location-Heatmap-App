@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.companyname.mauiapp1">
+
+    <!-- REQUIRED location permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="MauiApp1"
+        android:supportsRtl="true">
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="MY_API_KEY_WAS_HERE" />
+    </application>
+
+</manifest>
